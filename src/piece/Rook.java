@@ -11,9 +11,9 @@ public class Rook extends Piece {
 		type = Type.ROOK;
 		
 		if (color == GamePanel.BLUE) {
-			image = getImage("/piece/b-rook");
+			image = getImage("/b-rook");
 		} else {
-			image = getImage("/piece/r-rook");
+			image = getImage("/r-rook");
 		}
 	}
 

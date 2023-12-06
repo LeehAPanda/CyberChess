@@ -11,9 +11,9 @@ public class Pawn extends Piece {
 		type = Type.PAWN;
 		
 		if (color == GamePanel.BLUE) {
-			image = getImage("/piece/b-pawn");
+			image = getImage("/b-pawn");
 		} else {
-			image = getImage("/piece/r-pawn");
+			image = getImage("/r-pawn");
 		}
 	}
 
